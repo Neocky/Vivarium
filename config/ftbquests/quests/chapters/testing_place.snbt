@@ -1,0 +1,42 @@
+{
+	id: 2,
+	filename: "testing_place",
+	order_index: 1,
+	title: "Testing Place",
+	icon: "minecraft:acacia_planks",
+	default_quest_shape: "",
+	quests: [{
+		x: 0.0d,
+		y: 0.0d,
+		shape: "hexagon",
+		id: 3,
+		tasks: [{
+			id: 4,
+			type: "checkmark",
+			title: "Welcome to your home",
+			icon: "minecraft:white_bed"
+		}],
+		rewards: [
+			{
+				id: 5,
+				type: "item",
+				item: "endermail:package"
+			},
+			{
+				id: 6,
+				type: "command",
+				title: "hi",
+				command: "/say Hi, @team!",
+				player_command: false
+			},
+			{
+				id: 7,
+				type: "command",
+				title: "hi",
+				auto: "invisible",
+				command: "/say Hi, @team!",
+				player_command: true
+			}
+		]
+	}]
+}

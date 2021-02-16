@@ -1,0 +1,318 @@
+{
+	id: 52,
+	filename: "all_the_farming",
+	order_index: 3,
+	title: "AGE OF RESSOURCES",
+	icon: "orebushes:berry_iron",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: 53,
+			tasks: [{
+				id: 54,
+				type: "item",
+				item: "botanypots:botany_pot"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			dependencies: [I;53],
+			id: 55,
+			tasks: [{
+				id: 56,
+				type: "item",
+				item: "botanypots:hopper_botany_pot"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			id: 57,
+			tasks: [{
+				id: 58,
+				type: "item",
+				item: "orebushes:tier_one_dust"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: [I;57],
+			id: 59,
+			tasks: [{
+				id: 60,
+				type: "item",
+				item: "orebushes:tier_one_farmland"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			dependencies: [I;57],
+			id: 61,
+			tasks: [{
+				id: 62,
+				type: "item",
+				item: "orebushes:seed_essence"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 2.0d,
+			dependencies: [I;59],
+			id: 63,
+			tasks: [{
+				id: 64,
+				type: "item",
+				item: "orebushes:seed_iron"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.0d,
+			dependencies: [I;59],
+			id: 65,
+			tasks: [{
+				id: 66,
+				type: "item",
+				item: "orebushes:seed_coal"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 2.0d,
+			dependencies: [I;59],
+			id: 67,
+			tasks: [{
+				id: 68,
+				type: "item",
+				item: "orebushes:seed_redstone"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 0.0d,
+			dependencies: [I;59],
+			id: 69,
+			tasks: [{
+				id: 70,
+				type: "item",
+				item: "orebushes:tier_two_farmland"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 0.0d,
+			dependencies: [I;69],
+			id: 71,
+			tasks: [{
+				id: 72,
+				type: "item",
+				item: "orebushes:tier_three_farmland"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 0.0d,
+			id: 75,
+			tasks: [{
+				id: 76,
+				type: "item",
+				item: "resourcefulbees:t1_beehive"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 0.0d,
+			dependencies: [I;75],
+			id: 77,
+			tasks: [{
+				id: 78,
+				type: "item",
+				item: "resourcefulbees:t2_beehive"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 0.0d,
+			dependencies: [I;77],
+			id: 79,
+			tasks: [{
+				id: 80,
+				type: "item",
+				item: "resourcefulbees:t3_beehive"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 0.0d,
+			dependencies: [I;79],
+			id: 81,
+			tasks: [{
+				id: 82,
+				type: "item",
+				item: "resourcefulbees:t4_beehive"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 1.5d,
+			id: 83,
+			tasks: [{
+				id: 84,
+				type: "item",
+				item: "resourcefulbees:scraper"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 1.5d,
+			id: 85,
+			tasks: [{
+				id: 86,
+				type: "item",
+				item: {
+					id: "resourcefulbees:smoker",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 1.5d,
+			id: 87,
+			tasks: [{
+				id: 88,
+				type: "item",
+				item: "resourcefulbees:bee_jar"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 2.0d,
+			dependencies: [I;71],
+			id: 89,
+			tasks: [{
+				id: 90,
+				type: "item",
+				item: "orebushes:seed_diamond"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 2.0d,
+			dependencies: [I;69],
+			id: 91,
+			tasks: [{
+				id: 92,
+				type: "item",
+				item: "orebushes:seed_osmium"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 2.0d,
+			dependencies: [I;69],
+			id: 93,
+			tasks: [{
+				id: 94,
+				type: "item",
+				item: "orebushes:seed_quartz"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 2.0d,
+			dependencies: [I;69],
+			id: 95,
+			tasks: [{
+				id: 96,
+				type: "item",
+				item: "orebushes:seed_glowstone"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 2.0d,
+			dependencies: [I;69],
+			id: 97,
+			tasks: [{
+				id: 98,
+				type: "item",
+				item: "orebushes:seed_fluorite"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 2.0d,
+			dependencies: [I;71],
+			id: 99,
+			tasks: [{
+				id: 100,
+				type: "item",
+				item: "orebushes:seed_uranium"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.0d,
+			dependencies: [I;59],
+			id: 101,
+			tasks: [{
+				id: 102,
+				type: "item",
+				item: "orebushes:seed_copper"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 3.0d,
+			dependencies: [I;69],
+			id: 103,
+			tasks: [{
+				id: 104,
+				type: "item",
+				item: "orebushes:seed_gold"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 3.0d,
+			dependencies: [I;69],
+			id: 107,
+			tasks: [{
+				id: 108,
+				type: "item",
+				item: "orebushes:seed_lead"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 3.0d,
+			dependencies: [I;69],
+			id: 109,
+			tasks: [{
+				id: 110,
+				type: "item",
+				item: "orebushes:seed_lapis"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 2.0d,
+			dependencies: [I;71],
+			id: 111,
+			tasks: [{
+				id: 112,
+				type: "item",
+				item: "orebushes:seed_emerald"
+			}]
+		}
+	]
+}

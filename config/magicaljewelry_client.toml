@@ -1,0 +1,63 @@
+
+#Jewels in chests
+[jewels_in_chests]
+	#Jewels can be found in chests
+	jewelsInChest = true
+
+#Rarity Drop Rate Settings
+#Note that to change the drop rate for Uncommon rarity, you have to change the other values.
+#If Rare, Epic and Legendary are all at max drop rate, Uncommon will not be able to drop.
+[rarity_drop_rate]
+	#Drop rate for Epic rarity [default: 15]
+	#Range: 5 ~ 30
+	epicDrop = 15
+	#Drop rate for Rare rarity [default: 30]
+	#Range: 15 ~ 60
+	rareDrop = 30
+	#Drop rate for Legendary rarity [default: 5]
+	#Range: 1 ~ 10
+	legendaryDrop = 5
+
+#Misc Jewel Settings
+[jewel_durability]
+	#Set the durability of Rare rarity [default: 14400]
+	#Range: 600 ~ 21600
+	rareDurability = 14400
+	#Set the durability of Uncommon rarity [default: 7200]
+	#Range: 600 ~ 21600
+	uncommonDurability = 7200
+	#Should Jewels have durability, Legendary rarity is always unbreakable
+	jewelDurability = true
+	#Set the durability of Epic rarity [default: 21600]
+	#Range: 600 ~ 21600
+	epicDurability = 21600
+
+#Misc Jewel Settings
+[effect_settings]
+	#Amount of effects for Epic rarity [default: 2]
+	#Range: 0 ~ 5
+	epicAmount = 2
+	#Should Legendary rarity have special effects
+	legendaryEffects = true
+	#Amount of effects for Uncommon rarity [default: 1]
+	#Range: 0 ~ 3
+	uncommonAmount = 1
+	#Amount of effects for Rare rarity [default: 2]
+	#Range: 0 ~ 4
+	rareAmount = 2
+	#Amount of effects for Legendary rarity, excluding Legendary Effect [default: 2]
+	#Range: 0 ~ 6
+	legendaryAmount = 2
+	#Max level for combined effects [default: 2]
+	#Range: 1 ~ 3
+	maxEffectLevel = 2
+	#Should Epic and Legendary rarity have attributes
+	epicLegendaryAttributes = true
+
+#Misc Jewel Settings
+[rarity_displayed]
+	#Rarity is displayed in the name
+	rarityName = true
+	#Rarity is displayed in tooltips
+	rarityTooltips = true
+

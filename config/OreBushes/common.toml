@@ -1,0 +1,47 @@
+
+#Integration Config
+[Integrations]
+	#Whether or not to include Create Machine Recipes for Ore Bush Berries
+	integration_create = true
+	#Whether or not to include Mekanism Machine Recipes for Ore Bush Berries
+	integration_mekanism = true
+	#Whether or not to include Thermal Machine Recipes for Ore Bush Seeds & Berries
+	integration_thermal = false
+	#Whether or not to allow Ore Bushes to be grown in Botany Pots
+	integration_botany_pots = true
+
+#Growth Config
+[Growth]
+	#Chance per growth tick for a epic ore bush to grow, default is 5
+	#Range: 1 ~ 100
+	chance_epic = 5
+	#Chance per growth tick for a rare ore bush to grow, default is 10
+	#Range: 1 ~ 100
+	chance_rare = 10
+	#Chance per growth tick for an uncommon ore bush to grow, default is 15
+	#Range: 1 ~ 100
+	chance_uncommon = 15
+	#Chance per growth tick for a common ore bush to grow, default is 20
+	#Range: 1 ~ 100
+	chance_common = 20
+
+#Berry Drop Config
+[Drops]
+	#Number of berries a dust ore bush will drop, default is 4
+	#Range: 1 ~ 10
+	drops_dust = 4
+	#Number of berries a natural ore bush will drop, default is 4
+	#Range: 1 ~ 10
+	drops_natural = 4
+	#Number of berries a gem ore bush will drop, default is 1
+	#Range: 1 ~ 10
+	drops_gem = 4
+	#Number of berries a metal ore bush will drop, default is 2
+	#Range: 2 ~ 10
+	drops_metal = 4
+
+#General Config
+[General]
+	#Whether or not to enable berry to grounds recipes
+	grinding = true
+

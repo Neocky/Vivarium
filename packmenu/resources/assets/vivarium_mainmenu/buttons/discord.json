@@ -1,0 +1,17 @@
+{
+	"x": 0,
+	"y": 0,
+	"width": 32,
+	"height": 32,
+	"texWidth": 32,
+	"texHeight": 32,
+	"texture": "vivarium_mainmenu:textures/gui/discord64.png",
+	"u": 0,
+	"v": 0,
+	"hoverU": -1,
+	"hoverV": 0,
+	"widgets": false,
+	"action": "OPEN_URL",
+	"data": "https://discord.gg/CgVAwPdQsK",
+	"anchor": "MIDDLE_LEFT"
+}

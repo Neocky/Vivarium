@@ -1,0 +1,22 @@
+{
+	"x": 5,
+	"y": 72,
+	"width": 100,
+	"height": 20,
+	"langKey": "menu.multiplayer",
+	"action": "OPEN_GUI",
+	"data": "MULTIPLAYER",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 0,
+	"texWidth": 120,
+	"texHeight": 60,
+	"texture": "vivarium_mainmenu:textures/gui/buttonnothing.png",
+	"fontColor": 16777215,
+	"hoverFontColor": 16197133,
+	"dropShadow": false,
+	"textXOffset": 5,
+	"textYOffset": -6,
+	"anchor": "MIDDLE_CENTER"
+}

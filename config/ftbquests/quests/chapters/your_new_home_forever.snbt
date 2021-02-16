@@ -1,0 +1,281 @@
+{
+	id: 8,
+	filename: "your_new_home_forever",
+	order_index: 2,
+	title: "YOUR HOME. FOREVER.",
+	icon: "mcwdoors:dark_oak_modern_door",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "The story",
+			x: -3.0d,
+			y: 0.0d,
+			shape: "rsquare",
+			description: [
+				"Welcome to the modpack Vivarium!",
+				"You were looking for a new house to buy for you and your family. When you heared about the uprising new neighbourhood you immediatley made an appointment with a seller for a visit. The seller left you alone after a couple of minutes in the visit and never returned. At least you got a new home."
+			],
+			id: 11,
+			tasks: [{
+				id: 12,
+				type: "checkmark",
+				title: "Welcome to your new house!"
+			}],
+			rewards: [
+				{
+					id: 13,
+					type: "item",
+					title: "Welcome package from us!",
+					item: "neapolitan:strawberries",
+					count: 8
+				},
+				{
+					id: 14,
+					type: "item",
+					title: "Welcome package from us!",
+					item: "neapolitan:vanilla_milkshake"
+				}
+			]
+		},
+		{
+			title: "Getting started",
+			x: 0.0d,
+			y: 0.0d,
+			description: [
+				"If this is my new home forever, I have to start working on getting wood first.",
+				"Maybe I can find a sapling somewhere here..."
+			],
+			id: 15,
+			tasks: [{
+				id: 16,
+				type: "item",
+				item: "minecraft:oak_sapling"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			dependencies: [I;15],
+			id: 17,
+			tasks: [
+				{
+					id: 18,
+					type: "item",
+					item: "minecraft:oak_log"
+				},
+				{
+					id: 25,
+					type: "item",
+					item: "minecraft:crafting_table"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			dependencies: [I;17],
+			id: 19,
+			tasks: [{
+				id: 20,
+				type: "item",
+				item: {
+					id: "woodenutilities:wooden_shears",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -2.0d,
+			dependencies: [I;17],
+			id: 21,
+			tasks: [{
+				id: 22,
+				type: "item",
+				item: "woodenutilities:wooden_furnace"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -2.0d,
+			dependencies: [I;21],
+			id: 23,
+			tasks: [{
+				id: 24,
+				type: "item",
+				item: "minecraft:charcoal"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			dependencies: [I;17],
+			id: 26,
+			tasks: [{
+				id: 27,
+				type: "item",
+				item: {
+					id: "tetra:modular_double",
+					Count: true,
+					tag: {
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						Damage: 0,
+						"double/basic_hammer_right_material": "basic_hammer/oak",
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.0d,
+			dependencies: [I;17],
+			id: 31,
+			tasks: [
+				{
+					id: 32,
+					type: "item",
+					item: {
+						id: "exnihilosequentia:crook_wood",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 113,
+					type: "item",
+					item: {
+						id: "exnihilosequentia:hammer_wood",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 2.0d,
+			dependencies: [I;31],
+			id: 33,
+			tasks: [{
+				id: 34,
+				type: "item",
+				item: "exnihilosequentia:silkworm"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 2.0d,
+			dependencies: [I;33],
+			id: 35,
+			tasks: [{
+				id: 36,
+				type: "item",
+				item: "minecraft:string"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.0d,
+			dependencies: [I;19],
+			id: 37,
+			tasks: [{
+				id: 38,
+				type: "item",
+				item: "minecraft:oak_leaves"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 4.0d,
+			dependencies: [I;37],
+			id: 39,
+			tasks: [{
+				id: 40,
+				type: "item",
+				item: "exnihilosequentia:crucible_wood"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 4.0d,
+			dependencies: [I;35],
+			id: 41,
+			tasks: [
+				{
+					id: 42,
+					type: "item",
+					item: "exnihilosequentia:sieve"
+				},
+				{
+					id: 43,
+					type: "item",
+					item: {
+						id: "exnihilosequentia:mesh_string",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 10.0d,
+			y: 2.0d,
+			dependencies: [I;35],
+			id: 44,
+			tasks: [{
+				id: 45,
+				type: "item",
+				item: "exnihilosequentia:beehive_frame"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 4.0d,
+			dependencies: [I;
+				44,
+				41
+			],
+			id: 46,
+			tasks: [{
+				id: 47,
+				type: "item",
+				item: "resourcefulbees:t1_beehive"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 6.0d,
+			dependencies: [I;41],
+			id: 48,
+			tasks: [{
+				id: 49,
+				type: "item",
+				item: "minecraft:clay"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 6.0d,
+			dependencies: [I;48],
+			id: 73,
+			tasks: [{
+				id: 74,
+				type: "item",
+				item: "botanypots:botany_pot"
+			}]
+		}
+	]
+}

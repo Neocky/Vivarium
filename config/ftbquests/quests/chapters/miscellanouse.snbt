@@ -1,0 +1,36 @@
+{
+	id: 28,
+	filename: "miscellanouse",
+	order_index: 4,
+	title: "EVERYTHING OTHER",
+	icon: "minecraft:wither_rose",
+	default_quest_shape: "",
+	quests: [{
+		title: "No budget left",
+		icon: "minecraft:bedrock",
+		x: 0.0d,
+		y: 0.0d,
+		description: [
+			"I am sorry but we couldn't afford an underground.",
+			"The whole budget for this project got used for Chai Latte."
+		],
+		hide_text_until_complete: true,
+		id: 29,
+		tasks: [{
+			id: 30,
+			type: "location",
+			dimension: "minecraft:overworld",
+			ignore_dimension: false,
+			position: [I;
+				0,
+				65,
+				0
+			],
+			size: [I;
+				1,
+				1,
+				1
+			]
+		}]
+	}]
+}

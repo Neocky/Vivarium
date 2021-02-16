@@ -1,0 +1,97 @@
+
+#Stats for each available drink type
+[drinks]
+
+	#Stats for floral
+	[drinks.floral]
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.5
+		#Level of the herbal effect when drinking this tea.
+		#Set to 0 to disable the effect.
+		#Range: 0 ~ 10
+		level = 2
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 2
+
+	#Stats for green
+	[drinks.green]
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.5
+		#Time in seconds for the caffeine effect from drinking this tea.
+		#Set to 0 to disable the effect.
+		#Range: 0 ~ 600
+		time = 150
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 3
+
+	#Stats for chai
+	[drinks.chai]
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.6
+		#Time in seconds for the caffeine effect from drinking this tea.
+		#Set to 0 to disable the effect.
+		#Range: 0 ~ 600
+		time = 150
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 5
+
+	#Stats for black
+	[drinks.black]
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.8
+		#Time in seconds for the caffeine effect from drinking this tea.
+		#Set to 0 to disable the effect.
+		#Range: 0 ~ 600
+		time = 210
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 4
+
+	#Stats for chorus
+	[drinks.chorus]
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.9
+		#Time in seconds for the enderfalling effect from drinking this tea.
+		#Set to 0 to disable the effect.
+		#Range: 0 ~ 600
+		time = 150
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 3
+
+	#Stats for cocoa
+	[drinks.cocoa]
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.6
+		#If true, drinking cocoa clears status effects like milk
+		clear_effects = true
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 4
+
+#Options related to filling the teapot
+[teapot]
+	#If true, the teapot will not consume water source blocks when filling. It will still consume water from tank and cauldrons.
+	infinite_water = false
+	#If true, the teapot can be filled with water from a cauldron
+	fill_from_cauldron = true
+	#If true, cows can be milked using a teapot to fill it with milk
+	milk_cow = true
+
+#Options related to tea trees
+[tree]
+	#If true, tea trees generate in the world
+	generation = true
+	#Chance of leaves to regrow every random tick.
+	#Range: 0.0 ~ 1.0
+	regrow_chance = 0.05
+
