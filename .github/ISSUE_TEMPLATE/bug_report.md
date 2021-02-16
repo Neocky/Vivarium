@@ -27,5 +27,5 @@ If applicable, add screenshots to help explain your problem.
 Add any other context about the problem here.
 
 **Logs**
-Please use a paste site for logs, instead of copying the whole file in the issue.
+Please use a paste site for logs, instead of copying the whole file in the issue.  
 For example: [https://pastebin.com/](https://pastebin.com/)
