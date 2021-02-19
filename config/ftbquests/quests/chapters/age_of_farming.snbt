@@ -1,0 +1,226 @@
+{
+	id: 114,
+	filename: "age_of_farming",
+	order_index: 3,
+	title: "AGE OF FARMING",
+	icon: "minecraft:wheat_seeds",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Happy cake day!",
+			x: 0.0d,
+			y: 0.0d,
+			description: ["Make yourself a cake to celebrate your birthday. Alone."],
+			id: 115,
+			tasks: [{
+				id: 116,
+				type: "item",
+				item: "simplefarming:birthday_cake"
+			}]
+		},
+		{
+			title: "Too many seeds",
+			x: -5.0d,
+			y: 0.0d,
+			description: ["Get all the seeds. They all have another fertile season in which they can grow."],
+			id: 117,
+			tasks: [
+				{
+					id: 118,
+					type: "item",
+					item: "minecraft:wheat_seeds"
+				},
+				{
+					id: 119,
+					type: "item",
+					item: "minecraft:pumpkin_seeds"
+				},
+				{
+					id: 120,
+					type: "item",
+					item: "minecraft:melon_seeds"
+				},
+				{
+					id: 121,
+					type: "item",
+					item: "minecraft:beetroot_seeds"
+				},
+				{
+					id: 122,
+					type: "item",
+					item: "simplefarming:cumin_seeds"
+				},
+				{
+					id: 123,
+					type: "item",
+					item: "simplefarming:quinoa_seeds"
+				},
+				{
+					id: 124,
+					type: "item",
+					item: "simplefarming:sunflower_seeds"
+				},
+				{
+					id: 126,
+					type: "item",
+					item: "simplefarming:barley_seeds"
+				},
+				{
+					id: 127,
+					type: "item",
+					item: "simplefarming:broccoli_seeds"
+				},
+				{
+					id: 128,
+					type: "item",
+					item: "simplefarming:cantaloupe_seeds"
+				},
+				{
+					id: 129,
+					type: "item",
+					item: "simplefarming:carrot_seeds"
+				},
+				{
+					id: 130,
+					type: "item",
+					item: "simplefarming:cassava_seeds"
+				},
+				{
+					id: 131,
+					type: "item",
+					item: "simplefarming:corn_seeds"
+				},
+				{
+					id: 133,
+					type: "item",
+					item: "simplefarming:cotton_seeds"
+				},
+				{
+					id: 134,
+					type: "item",
+					item: "simplefarming:cucumber_seeds"
+				},
+				{
+					id: 135,
+					type: "item",
+					item: "simplefarming:eggplant_seeds"
+				},
+				{
+					id: 136,
+					type: "item",
+					item: "simplefarming:honeydew_seeds"
+				},
+				{
+					id: 137,
+					type: "item",
+					item: "simplefarming:ginger_seeds"
+				},
+				{
+					id: 138,
+					type: "item",
+					item: "simplefarming:grape_seeds"
+				},
+				{
+					id: 139,
+					type: "item",
+					item: "simplefarming:kenaf_seeds"
+				},
+				{
+					id: 140,
+					type: "item",
+					item: "simplefarming:lettuce_seeds"
+				},
+				{
+					id: 141,
+					type: "item",
+					item: "simplefarming:oat_seeds"
+				},
+				{
+					id: 142,
+					type: "item",
+					item: "simplefarming:onion_seeds"
+				},
+				{
+					id: 143,
+					type: "item",
+					item: "simplefarming:pea_seeds"
+				},
+				{
+					id: 144,
+					type: "item",
+					item: "simplefarming:peanut_seeds"
+				},
+				{
+					id: 145,
+					type: "item",
+					item: "simplefarming:pepper_seeds"
+				},
+				{
+					id: 146,
+					type: "item",
+					item: "simplefarming:potato_seeds"
+				},
+				{
+					id: 147,
+					type: "item",
+					item: "simplefarming:radish_seeds"
+				},
+				{
+					id: 148,
+					type: "item",
+					item: "simplefarming:rice_seeds"
+				},
+				{
+					id: 149,
+					type: "item",
+					item: "simplefarming:rye_seeds"
+				},
+				{
+					id: 150,
+					type: "item",
+					item: "simplefarming:sorghum_seeds"
+				},
+				{
+					id: 151,
+					type: "item",
+					item: "simplefarming:soybean_seeds"
+				},
+				{
+					id: 152,
+					type: "item",
+					item: "simplefarming:spinach_seeds"
+				},
+				{
+					id: 153,
+					type: "item",
+					item: "simplefarming:squash_seeds"
+				},
+				{
+					id: 154,
+					type: "item",
+					item: "simplefarming:sweet_potato_seeds"
+				},
+				{
+					id: 155,
+					type: "item",
+					item: "simplefarming:tomato_seeds"
+				},
+				{
+					id: 156,
+					type: "item",
+					item: "simplefarming:turnip_seeds"
+				},
+				{
+					id: 157,
+					type: "item",
+					item: "simplefarming:yam_seeds"
+				},
+				{
+					id: 158,
+					type: "item",
+					item: "simplefarming:zucchini_seeds"
+				}
+			]
+		}
+	]
+}

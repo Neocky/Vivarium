@@ -1,7 +1,7 @@
 {
 	id: 52,
 	filename: "all_the_farming",
-	order_index: 3,
+	order_index: 2,
 	title: "AGE OF RESSOURCES",
 	icon: "orebushes:berry_iron",
 	default_quest_shape: "",

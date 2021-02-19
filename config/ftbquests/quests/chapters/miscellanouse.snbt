@@ -1,7 +1,7 @@
 {
 	id: 28,
 	filename: "miscellanouse",
-	order_index: 4,
+	order_index: 7,
 	title: "EVERYTHING OTHER",
 	icon: "minecraft:wither_rose",
 	default_quest_shape: "",

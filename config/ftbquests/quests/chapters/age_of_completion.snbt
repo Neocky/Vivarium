@@ -1,0 +1,33 @@
+{
+	id: 161,
+	filename: "age_of_completion",
+	order_index: 6,
+	title: "AGE OF COMPLETION",
+	icon: "minecraft:tropical_fish",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			description: ["Build yourself a nice coffe machine for these long work nights."],
+			id: 162,
+			tasks: [{
+				id: 163,
+				type: "item",
+				item: "coffeemod:coffee_machine"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			description: ["A coffe always refreshes a sleepy mind."],
+			dependencies: [I;162],
+			id: 164,
+			tasks: [{
+				id: 165,
+				type: "item",
+				item: "coffeemod:coffee"
+			}]
+		}
+	]
+}

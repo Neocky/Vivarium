@@ -1,0 +1,9 @@
+{
+	id: 160,
+	filename: "age_of_electricity",
+	order_index: 5,
+	title: "AGE OF ELECTRICITY",
+	icon: "mekanism:basic_energy_cube",
+	default_quest_shape: "",
+	quests: []
+}

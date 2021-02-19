@@ -90,7 +90,7 @@
 #Options related to tea trees
 [tree]
 	#If true, tea trees generate in the world
-	generation = true
+	generation = false
 	#Chance of leaves to regrow every random tick.
 	#Range: 0.0 ~ 1.0
 	regrow_chance = 0.05

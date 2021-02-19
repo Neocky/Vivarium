@@ -1,0 +1,9 @@
+{
+	id: 159,
+	filename: "age_of_rotation",
+	order_index: 4,
+	title: "AGE OF ROTATION",
+	icon: "create:wrench",
+	default_quest_shape: "",
+	quests: []
+}

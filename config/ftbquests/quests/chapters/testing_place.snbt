@@ -1,7 +1,7 @@
 {
 	id: 2,
 	filename: "testing_place",
-	order_index: 1,
+	order_index: 8,
 	title: "Testing Place",
 	icon: "minecraft:acacia_planks",
 	default_quest_shape: "",
@@ -19,8 +19,7 @@
 		rewards: [
 			{
 				id: 5,
-				type: "item",
-				item: "endermail:package"
+				type: "item"
 			},
 			{
 				id: 6,

@@ -1,7 +1,7 @@
 {
 	id: 8,
 	filename: "your_new_home_forever",
-	order_index: 2,
+	order_index: 1,
 	title: "YOUR HOME. FOREVER.",
 	icon: "mcwdoors:dark_oak_modern_door",
 	default_quest_shape: "",
@@ -45,6 +45,7 @@
 				"If this is my new home forever, I have to start working on getting wood first.",
 				"Maybe I can find a sapling somewhere here..."
 			],
+			dependencies: [I;11],
 			id: 15,
 			tasks: [{
 				id: 16,
